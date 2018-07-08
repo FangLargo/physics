@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Ground" tilewidth="32" tileheight="32">
+  <image source="SimpleTile.png" width="96" height="96"/>
+  <tile id="0">
+   <properties>
+    <property name="Edge" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Edge" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Edge" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Edge" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Edge" value="0"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Edge" value="1"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Edge" value="1"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Edge" value="1"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="Edge" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="10" name="Property" tilewidth="32" tileheight="32">
+  <image source="PropertyTile.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="PlayerStart" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Object" value="0"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Object" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Physics" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztVosKwjAM7Do39f9/WAcOzvPyaDsEZYGD6Xq5JE3aLaWU5U9wA3xLcy3vdj0wBwVLd9dW+Uf1uAtfbBdYPyfWrfS7R5P5Hod1sRY7sprIV5zpifqCtx/KNu4snltiivrA4m7ra2mvBRruRwVEPaHiVPlbNUFdrIGX/5Yz5zkZ8Vu9zX2F/2XzR01vrtGHp5vtaeWDjWtk6UZ9NjITI7qjc96rO2oZ3b2mLWfEEbo84xn9KFbWncpnHLyX0V2j/EbvvXOdOZl7zqpRZvbYWmKzZqxH1zI10z266CfaTzwrM99blq7yk91PC+p8tu6RjHaUq+Jn4mTUkovR47dyTvwmHo7WCr8=
+  </data>
+ </layer>
+ <objectgroup name="Property">
+  <object gid="10" x="59" y="397"/>
+  <object gid="11" x="211" y="687"/>
+  <object gid="11" x="674" y="516"/>
+  <object gid="12" x="334" y="498"/>
+  <object gid="12" x="370" y="190"/>
+  <object gid="12" x="186" y="327"/>
+  <object gid="12" x="41" y="272"/>
+  <object gid="12" x="847" y="173"/>
+  <object gid="11" x="118" y="273"/>
+  <object gid="11" x="835" y="663"/>
+  <object gid="11" x="559" y="273"/>
+  <object gid="12" x="692" y="276"/>
+ </objectgroup>
+</map>
