@@ -54,7 +54,7 @@ public class OrientationScreen implements Screen {
 	Polygon playerPolygon;
 	Vector2 playerLocation = new Vector2();
 	Vector2 playerSquare = new Vector2();
-	float velocity = -20;
+	float velocity = -35;
 	float radius = 7;
 	float distance = 0;
 	
