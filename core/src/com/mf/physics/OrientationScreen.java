@@ -73,7 +73,7 @@ public class OrientationScreen implements Screen {
 	Label thirdLabel;
 	Label currentLabel;
 	
-	Color darkGray = new Color(0.1f, 0.1f, 0.1f, 1);
+	Color darkGray = new Color(0.3f, 0.3f, 0.3f, 1);
 	
 	Label counterLabel;
 	
@@ -214,7 +214,7 @@ public class OrientationScreen implements Screen {
 		setupTable.row();
 		setupTable.row();
 		Label setupLabel1 = new Label("Tap the Orb to start", skin);
-		Label setupLabel2 = new Label("Rotate you device, or drag the screen", skin);
+		Label setupLabel2 = new Label("Rotate your device, or drag the screen", skin);
 		setupLabel1.setColor(darkGray);
 		setupTable.add(setupLabel1).colspan(2);
 		setupTable.row();
